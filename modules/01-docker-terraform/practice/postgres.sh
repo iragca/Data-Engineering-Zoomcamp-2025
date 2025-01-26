@@ -4,4 +4,6 @@ docker run -it `
     -e POSTGRES_DB="ny_taxi" `
     -v "D:\Documents\3 Production Save Files\1 Cloned repositories\Data-Engineering-Zoomcamp-2025\modules\01-docker-terraform\practice\ny_taxi_postgres_data:/var/lib/postgresql/data" `
     -p 5432:5432 `
+    --network pg-network `
+    --name pg-database `
     postgres:13
