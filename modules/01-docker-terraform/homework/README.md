@@ -20,7 +20,7 @@ The `db:` in the docker-compose file implicitly names this service's hostname. S
 ## Setup 
 
 ```bash
-docker compose up
+docker compose up -d
 python load_data.py
 ```
 
