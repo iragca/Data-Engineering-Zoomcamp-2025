@@ -24,7 +24,8 @@ docker compose up
 python load_data.py
 ```
 
-> [!NOTE] Answers are also found within in this directory (using polars), the jupyter notebook named `eda.ipynb`.
+> [!NOTE] 
+> Answers are also found within in this directory (using polars), the jupyter notebook named `eda.ipynb`.
 
 ## Question 3
 
